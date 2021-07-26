@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Suffix": {
+            "value": "CBS"
+        },
+        "VirtualMachineAdminUsernameLinux": {
+            "value": "chandufabmedical"
+        },
+        "VirtualMachineAdminPublicKeyLinux": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBexfoec1DJ2qK1mMlfmKPhwDuHXfGh/IfXsrExMTct0PhZUXESvCUTwhUGJLmtNZxcHQKueb7D/26kj2xtZo2Pq8oKpbiJ6btrK0KeokQdwfLyUfdqdpFnf+2faHyROU8RbGQmeGvUyWkxt7gs2PwabBs7OLH+Va3WulZjHV2+Q4UroB1DmEeJbtdNFFhXLA5zi/tBVrZVIcKc0rvASN8SWQDtXsSStppu3P8w7n8dyifM1ob8BH4PpY5MueIWifYHqOF/lS5QfER44/DXPaYPY0Ta93YXmNoFYqPTPl9BjXEiCrubdysGC4st0ZRR5oGCTwUWnCwXWG8LljmyDtt chandu@fabmedical"
+        },
+        "CosmosLocation": {
+            "value": "south central us"
+        },
+        "CosmosLocationName": {
+            "value": "south central us"
+        },
+        "CosmosPairedLocation": {
+            "value": "North Central US"
+        },
+        "CosmosPairedLocationName": {
+            "value": "North Central US"
+        }
+    }
+}
